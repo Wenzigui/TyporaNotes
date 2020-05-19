@@ -251,7 +251,7 @@ CPU包含三部分：
 
 
 
-![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200519081845880.png)
+![image-20200519154212749](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200519154212749.png)
 
 
 
@@ -265,4 +265,14 @@ CPU包含三部分：
 
 -   IP寄存器（指令指针寄存器）指向代码段中下一条指令的位置
     CPU会根据它不停地从内存中的代码段中加载指令到CPU的指令队列，然后交给运算单元执行
--   代码段寄存器（CS）
+-   代码段寄存器（CS）用于找到代码在内存中的位置
+-   数据段寄存器（DS）用于找到数据在内存中的位置
+-   栈寄存器（SS）存储函数调用相关的操作
+
+
+
+## 总结
+
+
+
+![image-20200519155204767](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200519155204767.png)
