@@ -475,3 +475,41 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 ### 基本用法
 
 ![image-20200519215122483](Vue笔记.assets/image-20200519215122483.png)
+
+
+
+### 常用API
+
+
+
+**Get请求**
+
+![image-20200519223957530](Vue笔记.assets/image-20200519223957530.png)
+
+
+
+**Delete请求**
+
+![image-20200519224116344](Vue笔记.assets/image-20200519224116344.png)
+
+>   跟get方式类似
+
+
+
+**Post请求**
+
+![image-20200519224312212](Vue笔记.assets/image-20200519224312212.png)
+
+>   默认传递json参数
+
+
+
+![image-20200519224605206](Vue笔记.assets/image-20200519224605206.png)
+
+>   通过URLSearchParams传递表单参数application/x-www-form-urlencoded
+
+
+
+**Put请求**
+
+>   跟Post请求类似
