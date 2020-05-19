@@ -12,31 +12,31 @@ Vue使用进阶：
 
 ## 传统开发模式对比
 
-![](Vue笔记.assets/20200420211405.png)
+![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420211405.png)
 
 > JQ对JS封装，提高了易用性
 
-![](Vue笔记.assets/20200420212401.png)
+![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420212454.png)
 
 - el表示元素的挂载位置（值可以是CSS选择器或者DOM元素）
 - data表示模型数据
 - {{xxx}}表示插值表达式，可以将数据填充到HTML标签，同时支持基本的计算操作
 
-![](Vue笔记.assets/20200420212454.png)
+![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420212401.png)
 
 > 编译过程
 
 ## 模板语法
 
-![](Vue笔记.assets/20200420212730.png)
+![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420212935.png)
 
 前端渲染的方式：
 
 - 原生JS拼接字符串（代码可读性差，维护困难）
-![](Vue笔记.assets/20200420212935.png)
+![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420212730.png)
 
 - 使用前端模板引擎（代码可读性好，但是没有专门提供事件机制）
-![](Vue笔记.assets/20200420212959.png)
+![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420212959.png)
 
 - 使用Vue的模板语法
 
@@ -51,7 +51,7 @@ Vue使用进阶：
 
 > “闪动”原因：先展示插值表达式，然后填充数据，所以频繁刷新页面的时候，可以看到插值表达式
 
-![](Vue笔记.assets/20200420214059.png)
+![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420214059.png)
 
 > 原理：通过样式隐藏内容，然后再内存中进行值得替换，替换之后再显示最终结果
 
@@ -61,7 +61,7 @@ Vue使用进阶：
 - v-html：填充HTML片段（存在安全问题）
 - v-pre：填充原始信息（跳过编译过程）
 
-![](Vue笔记.assets/20200420214926.png)
+![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519213720565.png)
 
 #### 数据响应式
 
@@ -215,7 +215,7 @@ v-model = v-bind + v-on
 
  ![image-20200519213039552](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200519213116021.png)
 
- ### 计算属性和方法的区别
+### 计算属性和方法的区别
 
  - 计算属性是基于它们的依赖进行缓存
  - 方法不存在缓存
@@ -244,21 +244,21 @@ v-model = v-bind + v-on
 
 ### 自定义过滤器
 
-![image-20200519213720565](Vue笔记.assets/image-20200519213720565.png)
+![image-20200519213720565](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420214926.png)
 
 ### 使用过滤器
 
-![image-20200519213740820](Vue笔记.assets/image-20200519213740820.png)
+![image-20200519213740820](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519213752427.png)
 
 > 支持级联操作
 
 ### 局部过滤器
 
-![image-20200519213752427](Vue笔记.assets/image-20200519213752427.png)
+![image-20200519213752427](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519213740820.png)
 
 ### 带参数的过滤器
 
-![image-20200519213812204](Vue笔记.assets/image-20200519213812204.png)
+![image-20200519213812204](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519213959966.png)
 
 ## 生命周期
 
@@ -276,7 +276,7 @@ v-model = v-bind + v-on
     1. beforeDestroy
     2. destroyed
 
-![image-20200519213921886](Vue笔记.assets/image-20200519213921886.png)
+![image-20200519213921886](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519213812204.png)
 
 # 组件化开发
 
@@ -284,7 +284,7 @@ v-model = v-bind + v-on
 
 ### 全局组件注册
 
-![image-20200519213959966](Vue笔记.assets/image-20200519213959966.png)
+![image-20200519213959966](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519213921886.png)
 
 > 组件支持重用，数据互相独立
 
@@ -297,17 +297,17 @@ v-model = v-bind + v-on
     - 驼峰式（ComponentName）
     - 短横线（component-name，推荐使用）
 
-![image-20200519214047511](Vue笔记.assets/image-20200519214047511.png)
+![image-20200519214047511](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214047511.png)
 
 > 用反引号括住的就是模板字符串
 
-![image-20200519214119309](Vue笔记.assets/image-20200519214119309.png)
+![image-20200519214119309](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214119309.png)
 
 > 通过驼峰式的命名去注册组件，在字符串模板可以依旧使用驼峰的方式使用组件，但是在普通的标签模板中，必须使用短横线的方式使用组件
 
 ### 局部组件注册
 
-![image-20200519214131837](Vue笔记.assets/image-20200519214131837.png)
+![image-20200519214131837](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214131837.png)
 
 > - 在Vue实例中使用components属性
 > - 全局组件的模板中不允许使用局部组件
@@ -316,11 +316,11 @@ v-model = v-bind + v-on
 
 ### 父组件向子组件传值
 
-![image-20200519214146125](Vue笔记.assets/image-20200519214146125.png)
+![image-20200519214146125](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214146125.png)
 
 > 组件内部通过props接受传递过来的值
 
-![image-20200519214240929](Vue笔记.assets/image-20200519214240929.png)
+![image-20200519214240929](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214240929.png)
 
 > 第一种方式传递静态的值
 > 第二种方式传递动态的值
@@ -330,7 +330,7 @@ v-model = v-bind + v-on
 - 在props中使用驼峰形式，模板中需要使用短横线的形式
 - 字符串形式的模板中没有这个限制
 
-![image-20200519214251479](Vue笔记.assets/image-20200519214251479.png)
+![image-20200519214251479](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214251479.png)
 
 ### 子组件向父组件传值
 
@@ -338,11 +338,11 @@ v-model = v-bind + v-on
 
 子组件通过自定义事件向父组件传递消息
 
-![image-20200519214320528](Vue笔记.assets/image-20200519214320528.png)
+![image-20200519214320528](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214320528.png)
 
 > @enlarge-text是v-on指令简写
 
-![image-20200519214401104](Vue笔记.assets/image-20200519214401104.png)
+![image-20200519214401104](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214401104.png)
 
 > $event是固定的，代表子组件传过来的值
 
@@ -350,19 +350,19 @@ v-model = v-bind + v-on
 
 > 通过事件中心管理组件进行通信
 
-![image-20200519214419038](Vue笔记.assets/image-20200519214419038.png)
+![image-20200519214419038](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214419038.png)
 
 1. 单独new一个Vue实例，由该实例扮演事件中心的角色
 
-![image-20200519214802452](Vue笔记.assets/image-20200519214802452.png)
+![image-20200519214802452](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214802452.png)
 
 2. 监听、销毁事件
 
-![image-20200519214813267](Vue笔记.assets/image-20200519214813267.png)
+![image-20200519214813267](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214828178.png)
 
 3. 触发事件
 
-![image-20200519214828178](Vue笔记.assets/image-20200519214828178.png)
+![image-20200519214828178](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519214813267.png)
 
 ```javascript
 // 事件中心
@@ -430,7 +430,7 @@ Vue.component('test-jerry', {
 
 父组件向子组件传递模板内容
 
-![image-20200519215050324](Vue笔记.assets/image-20200519215050324.png)
+![image-20200519215050324](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519215050324.png)
 
 > slot中可以设置默认内容，如果父组件没有传递模板内容，则显示默认内容
 
@@ -438,7 +438,7 @@ Vue.component('test-jerry', {
 
 > 就是带名字的插槽
 
-![image-20200519215106174](Vue笔记.assets/image-20200519215106174.png)
+![image-20200519215106174](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519215106174.png)
 
 ### 作用域插槽
 
@@ -474,7 +474,7 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 
 ### 基本用法
 
-![image-20200519215122483](Vue笔记.assets/image-20200519215122483.png)
+![image-20200519215122483](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519215122483.png)
 
 
 
@@ -484,13 +484,13 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 
 **Get请求**
 
-![image-20200519223957530](Vue笔记.assets/image-20200519223957530.png)
+![image-20200519223957530](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519223957530.png)
 
 
 
 **Delete请求**
 
-![image-20200519224116344](Vue笔记.assets/image-20200519224116344.png)
+![image-20200519224116344](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519224116344.png)
 
 >   跟get方式类似
 
@@ -498,13 +498,13 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 
 **Post请求**
 
-![image-20200519224312212](Vue笔记.assets/image-20200519224312212.png)
+![image-20200519224312212](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519224605206.png)
 
 >   默认传递json参数
 
 
 
-![image-20200519224605206](Vue笔记.assets/image-20200519224605206.png)
+![image-20200519224605206](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519224312212.png)
 
 >   通过URLSearchParams传递表单参数application/x-www-form-urlencoded
 
