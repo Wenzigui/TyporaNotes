@@ -14,9 +14,15 @@ Vue使用进阶：
 
 ![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420211405.png)
 
+
+
 > JQ对JS封装，提高了易用性
 
+
+
 ![](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/20200420212454.png)
+
+
 
 - el表示元素的挂载位置（值可以是CSS选择器或者DOM元素）
 - data表示模型数据
