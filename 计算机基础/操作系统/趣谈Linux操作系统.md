@@ -37,7 +37,7 @@ passwd
 
 
 
-![image-20200518210124525](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200518210124525.png)
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200518210124525.png)
 
 
 
@@ -90,7 +90,7 @@ passwd
 
 ## 脑图总结
 
-![image-20200518213257672](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200518213257672.png)
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200518213257672.png)
 
 
 
@@ -106,7 +106,7 @@ passwd
 
 
 
-![image-20200518215514514](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200518215514514.png)
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200518215514514.png)
 
 
 
@@ -120,7 +120,7 @@ passwd
 
 
 
-![image-20200518220342833](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200518220342833.png)
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200518220342833.png)
 
 
 
@@ -152,7 +152,7 @@ passwd
 
 
 
-![image-20200518221345942](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200518221345942.png)
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200518221345942.png)
 
 
 
@@ -211,7 +211,9 @@ Glibc 为程序员提供丰富的 API，除了例如字符串处理、数学运�
 
 ## 脑图总结
 
-![image-20200518223220401](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200518223220401.png)
+
+
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200518223220401.png)
 
 
 
@@ -223,7 +225,7 @@ Glibc 为程序员提供丰富的 API，除了例如字符串处理、数学运�
 
 
 
-![image-20200519075211401](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519075211401.png)
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200519075211401.png)
 
 
 
@@ -241,7 +243,7 @@ CPU包含三部分：
 
 
 
-![image-20200519080015961](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519080015961.png)
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200519080015961.png)
 
 
 
@@ -249,7 +251,7 @@ CPU包含三部分：
 
 
 
-![image-20200519081845880](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519081845880.png)
+![](https://raw.githubusercontent.com/RoddeHope/Figurebed/master/img/image-20200519081845880.png)
 
 
 
