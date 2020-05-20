@@ -32,7 +32,7 @@ SDS遵循C字符串以空字符串结尾的惯例，遵循空字符结尾惯例�
 
 
 
-![image.png](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/1578899111152-e5e82dd7-ed9d-4d44-997b-c553fae23cd9.png)
+<img src="https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/1578899111152-e5e82dd7-ed9d-4d44-997b-c553fae23cd9.png" alt="image.png" style="zoom: 50%;" />
 
 
 
