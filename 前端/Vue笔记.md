@@ -1,3 +1,7 @@
+---
+
+---
+
 [toc]
 
 # 概述
@@ -478,6 +482,8 @@ Vue.component('fruit-list', {
 
 axios是一个基于Promise用于浏览器和node.js的http客户端
 
+
+
 ### 基本用法
 
 ![image-20200519215122483](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200519215122483.png)
@@ -519,3 +525,48 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 **Put请求**
 
 >   跟Post请求类似
+
+
+
+### 结果响应
+
+![image-20200521155036483](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200521155036483.png)
+
+
+
+### 全局配置
+
+![image-20200521155556937](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200521155556937.png)
+
+
+
+### 拦截器
+
+
+
+#### 请求拦截器
+
+![image-20200521155752228](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200521155752228.png)
+
+
+
+![image-20200521160027303](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200521160027303.png)
+
+
+
+#### 响应拦截器
+
+![image-20200521160132758](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200521160132758.png)
+
+
+
+![image-20200521160327012](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200521160327012.png)
+
+
+
+# 前端路由
+
+
+
+## 基本概念
+
