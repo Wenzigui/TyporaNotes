@@ -570,3 +570,62 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 
 ## 基本概念
 
+![image-20200522213655694](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522213655694.png)
+
+
+
+## Vue Router
+
+>   Vue的官方路由管理器
+
+
+
+包含功能：
+
+-   支持html5历史模式或者hash模式
+-   支持嵌套路由
+-   支持路由传参
+-   支持编程式路由
+-   支持命名路由
+
+
+
+## 基本使用步骤
+
+
+
+1.  引入相关的库文件
+
+![image-20200522215144744](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522215144744.png)
+
+>   先引入Vue，再引入Vue Router
+
+
+
+2.  添加路由链接
+
+![image-20200522215131516](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522215131516.png)
+
+
+
+3.  添加路由填充位
+
+![image-20200522215253687](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522215253687.png)
+
+
+
+4.  定义路由组件
+
+![image-20200522215454049](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522215454049.png)
+
+
+
+5.  配置路由规则
+
+![image-20200522215901460](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522215901460.png)
+
+
+
+6.  把路由挂载到Vue根实例
+
+![image-20200522215943638](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522215943638.png)
