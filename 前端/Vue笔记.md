@@ -564,17 +564,7 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 
 
 
-# 前端路由
-
-
-
-## 基本概念
-
-![image-20200522213655694](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522213655694.png)
-
-
-
-## Vue Router
+# Vue Router
 
 >   Vue的官方路由管理器
 
@@ -590,7 +580,13 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 
 
 
-## 基本使用步骤
+## 基本概念
+
+![image-20200522213655694](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522213655694.png)
+
+
+
+## 基本使用
 
 
 
@@ -629,3 +625,127 @@ axios是一个基于Promise用于浏览器和node.js的http客户端
 6.  把路由挂载到Vue根实例
 
 ![image-20200522215943638](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200522215943638.png)
+
+
+
+## 路由重定向
+
+>   在用户访问地址A的时候，强制用户跳转到地址C，从而展示特定的组件页面
+
+
+
+![image-20200524100109303](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524100109303.png)
+
+
+
+## 嵌套路由
+
+
+
+1.  在父组件的模板中配置子路由链接和路由占位符
+
+![image-20200524100813255](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524100813255.png)
+
+
+
+2.  创建路由组件
+
+![image-20200524101218632](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524101218632.png)
+
+
+
+3.  配置路由规则
+
+![image-20200524101252767](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524101252767.png)
+
+
+
+## 动态路由匹配
+
+>   应用场景，通过路由参数进行路由匹配
+
+
+
+1.  设置路由参数
+
+![image-20200524102207561](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524102207561.png)
+
+
+
+2.  获取路由参数
+
+![image-20200524102229295](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524102229295.png)
+
+
+
+## 路由组件传递参数
+
+>   使用`$route`传参会导致与路由耦合度高，推荐使用props传参，可以跟路由解耦
+
+
+
+1.  在路由规则中设置开启props传参
+
+![image-20200524102758951](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524102758951.png)
+
+>   如果是要传递对象类型的数据，可以如下图所示
+
+![image-20200524103033633](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524103033633.png)
+
+>   上图中的`id`属性无法在路由组件中获取
+>   如果需要获取`id`属性，可以传递函数类型的props
+
+![image-20200524103545891](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524103545891.png)
+
+
+
+2.  在路由组件中使用props接受路由参数
+
+![image-20200524103112710](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524103112710.png)
+
+
+
+## 命名路由
+
+>   就是给路由规则起了个别名
+
+
+
+![image-20200524104556308](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524104556308.png)
+
+
+
+![image-20200524104701463](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524104701463.png)
+
+
+
+## 编程式导航
+
+
+
+页面导航的方式：
+
+-   声明式导航
+    通过点击链接实现导航方式
+    比如点击网页中的`<a>`标签，或者使用Vue中的`<router-link>`
+-   编程式导航
+    通过调用JS形式的API是心啊导航
+    比如`location.href`
+
+
+
+![image-20200524105533836](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524105533836.png)
+
+>   跳转到注册页面
+
+
+
+![image-20200524105651835](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524105651835.png)
+
+>   退回到上一个页面
+
+
+
+还有一些其他的用法：
+
+![image-20200524105833410](https://images-1255831004.cos.ap-guangzhou.myqcloud.com/online/image-20200524105833410.png)
