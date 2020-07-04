@@ -228,3 +228,8 @@ typedef struct dict {
 ### 渐进式rehash的精髓
 
 把整个字典的rehash工作均摊到对字典的增删改查操作上，从而避免集中式rehash操作带来的庞大计算量影响redis性能
+
+
+
+# 数据类型 & 底层数据结构
+
